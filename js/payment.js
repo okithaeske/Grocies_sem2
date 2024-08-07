@@ -1,4 +1,4 @@
-const resultTable = document.getElementById('resultTable').querySelector('tbody');
+const resultTable = document.getElementById('payment_resultTable').querySelector('tbody');
 const tableTotalPrice = document.getElementById('tableTotalPrice');
 const Name = document.getElementById("name");
 const streetNo = document.getElementById("street_no");
