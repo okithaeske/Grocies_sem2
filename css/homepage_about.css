@@ -1,0 +1,951 @@
+
+
+/* start of home section*/
+
+
+
+.m_banner{
+    height: 400px;;
+    width: 100%;
+    margin-left: auto;
+    margin-right:auto;
+    display: block;
+    border-bottom: 1px solid black;
+}
+h2{
+    font-size: 30px;
+    
+}
+.m_text{
+    font-size: 15px;
+}
+.home_content{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%)
+}
+.m_btn{
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: #c6acac;
+  
+}
+.m_btn:hover{
+    color: antiquewhite;
+}
+
+/* quick access: selection*/
+
+.q_access1{
+    margin: 5px;
+    margin-left: 30px;
+    width:450px;
+    height: 250px;;
+    border-radius: 10px;
+} 
+.q_accessh1{
+    position: absolute;
+    bottom: 20px; 
+    left: 40px; 
+    color: aliceblue;
+    font-size: 20px;
+}  
+.q_access2{
+    margin: 5px;
+    margin-left: 20px;
+    width:400px;
+    height: 520px;
+    border-radius: 10px;
+}  
+.q_accessh2{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    color: black;
+    font-size: 20px;
+} 
+.q_access3{
+    margin: 5px;
+    margin-left: 30px;
+    width:450px;
+    height:220;
+    border-radius: 10px;
+}
+.q_accessh3{
+    position:absolute;
+    top: 20px;
+    left: 40px;
+    color: aliceblue;
+    font-size: 20px;
+}  
+.boxcontainer{ 
+    display: grid;
+    text-align: justify;
+    grid-template-columns: repeat(2,480px);
+    grid-template-rows: repeat(2,270px)  
+     
+}
+
+.boxcontainer:hover{
+    background-color: #9ab06d;
+}
+.container{
+    width: 100%;
+    margin-top: .6rem;
+}
+
+/* item description*/
+
+
+/* vegetables description css*/
+.vege_des{
+    display: flex;
+}
+.vege_des{
+    background-color:rgb(238, 229, 217);
+    height:700px;
+    border-bottom: 1px solid black;
+}
+.vege_des_img{
+    margin-right: 2em;
+    margin-top: 15em;
+    border-radius: 5px;
+    border-radius: 10px;
+    width: 500px;
+    height: 300px;
+        
+}
+
+.vege_des:hover{
+    background-color: #c6acac;
+    
+}
+.vege_content{
+    width: 95%;
+    margin-left: 1em;
+}
+.vege_head{
+    font-size:40px;
+    
+}
+.vege_p{
+    font-size: 15px;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+.vege_list{
+    font-size: 15px;
+    top:5px ;
+    margin-left: 3em;
+}
+
+/* Daries description css*/
+
+.dairy_des{
+    background-color:rgb(238, 229, 217);
+    height:650px;
+    border-bottom: 1px solid black;
+}
+.dairy_des{
+    display: flex;
+
+}
+
+.dairy_des:hover{
+    background-color: #c6acac;
+    
+}
+.dairy_content{
+    width: 95%;
+    margin-left: 1em;
+}
+.dairy_head{
+    font-size:40px;
+    
+}
+.dairy_p{
+    font-size: 15px;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+.dairy_list{
+    font-size: 15px;
+    top:5px ;
+    margin-left: 3em;
+}
+.dairy_des_img{
+    margin-right: 2em;
+    margin-top: 10em;
+    border-radius: 10px;
+    width: 500px;
+    height: 300px;
+    
+}
+/* cosmetics description css*/
+.cos_des{
+    background-color:rgb(238, 229, 217);
+    height:500px;
+}
+.cos_des{
+    display: flex;
+}
+.cos_des:hover{
+    background-color: #c6acac; 
+}
+
+.cos_content{
+    width: 95%;
+    margin-left: 1em;
+}
+.cos_head{
+    font-size: 40px;
+}
+.cos_p{
+    font-size: 15px;
+    margin-top: 1em;
+    margin-left: 1em;
+    
+}
+.cos_des_img{
+    margin-right: 2em;
+    margin-top: 10em;
+    border-radius: 10px;
+    width: 500px;
+    height: 300px;
+    
+}
+
+  
+
+
+
+
+
+/* ....................................................................................................................................................................... */
+
+
+
+
+@media screen and (max-width: 600px) {
+
+    
+
+/* start of home section*/
+
+
+.m_banner{
+    height: 200px;;
+    width: 100%;
+    margin-left: auto;
+    margin-right:auto;
+    display: block;
+    border-bottom: 1px solid black;
+    opacity: .8;
+}
+h2{
+    font-size: 20px;
+    
+}
+.m_text{
+    font-size: 10px;
+}
+.home_content{
+    width: 55%;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%)
+}
+.m_btn{
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: #c6acac;
+  
+}
+.m_btn:hover{
+    color: antiquewhite;
+}
+
+/* quick access: selection*/
+
+#q_access_img{
+    width: 85%;
+    height: 50%;
+}
+.q_access2{
+    margin-left: 3em;
+}
+.q_accessh2{
+    margin-left: .5em;
+}
+.q_accessh1{
+    position: absolute;
+    bottom: 20px; 
+    left: 40px; 
+    color: aliceblue;
+    font-size: 20px;
+}  
+ 
+.q_accessh2{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    color: black;
+    font-size: 20px;
+} 
+.q_accessh3{
+    position:absolute;
+    top: 20px;
+    left: 40px;
+    color: aliceblue;
+    font-size: 20px;
+} 
+.q_accessp{
+    display: none;
+} 
+.boxcontainer{ 
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+     
+ }
+
+
+/* item description*/
+
+
+/* vegetables description css*/
+
+.vege_des{
+    display: flex;
+    flex-direction: column;
+}
+.vege_des{
+    background-color:rgb(238, 229, 217);
+    height:1250px;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+.vege_des_img{
+    margin-left: 1.5em;
+    margin-top: 6em;
+    width: 30%;
+    width:90%;
+    height: 200px;
+    border-radius: 5px;
+
+}
+
+.vege_des:hover{
+    background-color: #c6acac;
+    
+}
+.vege_content{
+    width: 95%;
+}
+.vege_head{
+    font-size:40px;
+    
+}
+.vege_p{
+    font-size: 15px;
+    /* position: relative; */
+    top: 25px;
+    margin-left: 1em;
+}
+.vege_list{
+    font-size: 15px;
+    top:5px ;
+    margin-left: 2em;
+}
+
+/* Daries description css*/
+
+.dairy_des{
+    background-color:rgb(238, 229, 217);
+    height:1100px;
+    border-bottom: 1px solid black;
+}
+.dairy_des{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.dairy_des:hover{
+    background-color: #c6acac;
+    
+}
+.dairy_content{
+    width: 95%;
+}
+.dairy_head{
+    font-size:40px;
+    
+}
+.dairy_p{
+    font-size: 15px;
+    top: 25px;
+    margin-left: 1em;
+}
+.dairy_list{
+    font-size: 15px;
+    top:5px ;
+    margin-left: 2em;
+   
+}
+.dairy_des_img{
+    margin-right: 2em;
+    margin-top: 7em;
+    border-radius: 10px;
+    width: 90%;
+    height: 200px;
+    margin-left: 1.5em;
+    
+}
+
+
+
+
+
+/* cosmetics description css*/
+.cos_des{
+    background-color:rgb(238, 229, 217);
+    height:850px;
+}
+.cos_des{
+    display: flex;
+    flex-direction: column;
+}
+.cos_des:hover{
+    background-color: #c6acac; 
+}
+
+.cos_content{
+    width: 90%;
+    margin-left: 1em;
+}
+.cos_head{
+    font-size: 40px;
+}
+.cos_p{
+    font-size: 15px;
+    top: 25px;
+    margin-left: 1em;
+}
+.cos_des_img{
+    margin-left: 2em;
+    margin-top: 5em;
+    border-radius: 10px;
+    width: 90%;
+    height: 200px;
+    
+}
+
+.product_des{
+    width: 100%;
+}
+
+
+
+
+}
+
+
+
+/* ........................................................................................................................................................................ */
+/* ........................................................................................................................................................................ */
+/* ........................................................................................................................................................................ */
+/* ........................................................................................................................................................................ */
+/* ........................................................................................................................................................................ */
+/* ........................................................................................................................................................................ */
+
+
+
+
+
+
+
+
+
+
+
+
+/* About page css */
+
+
+
+/*start of about page content*/
+
+/*summary of the store*/
+
+
+#panel{
+    margin:1em;
+    margin-top: 4em
+    height: 80%;
+    border-radius:5em;
+    
+}
+
+#container_abt{
+    width: 90%;
+    margin: 1em; 
+    margin-left: auto;
+    margin-right: auto; 
+    display:flex;
+    height: 48em;
+    /* border:solid black; */
+    border-radius: 1em;
+
+     
+}
+/*panel 1 customization*/
+.panel_1{
+    width: 33%;
+    background-color: #5f9f75;
+    box-shadow: 1px 1px 4px;
+}
+.panel_1_h{
+    margin-left: 1em;
+    margin-top: 1em;
+    font-size: 40px;
+
+}
+.panel_1_p{
+    margin-left: 1em;
+    margin-top: 1.5em;
+    font-size: 35px;
+    
+}
+
+
+/*panel 2 customization*/
+
+.panel_2{
+    width: 32%;
+    background-color: rgb(159, 211, 159);
+    box-shadow: 1px 1px 4px;
+}
+.panel_2_h{
+    margin-left: 1em;
+    margin-top: 1em;
+    font-size: 35px;
+
+}
+.panel_2_p{
+    text-align: center;
+    margin-top: 2em;
+    font-size: 20px;
+    font-size: 3em;
+    
+}
+/*panel 3 customization*/
+.panel_3{
+    width: 30%;
+    background-color: #e0fffc;
+    box-shadow: 1px 1px 4px;
+}
+.panel_3_h{
+    margin-left: 1em;
+    margin-top: 1em;
+    font-size: 35px;
+
+}
+.panel_3_p{
+    text-align: center;
+    margin-top: 2em;
+    font-size: 20px;
+    font-size: 30px;
+
+}
+
+
+
+/* details on our branches*/
+
+#dif_branches{
+    width: 90%;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid black;
+    border-radius: 1em;
+}
+.br_head{
+    font-size: 4em;
+    text-align: center ;
+    margin: 1em;
+}
+#br_des{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.br_img{
+    display: flex;
+}
+.br_images{
+    width: 45%;
+    margin: 1em;
+    display: block;
+    height: 30em;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+
+/* colombo branch*/
+
+.br1_head{
+    font-size: 2em;
+    margin-bottom: 1em;
+    margin-left: 1.5em;
+}
+.branch_1_des{
+    font-size: 2em;
+}
+.br1_map{
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    border:1px solid black;
+    border-radius: 1em;
+    height: auto;
+}
+
+.fort_branch{
+    border-radius: 1em;
+    width: 100%;
+    height: 400px;
+     
+    
+}
+
+/* kandy branch */
+
+.br2_head{
+    font-size: 2em;
+    margin-left: 1.5em;
+    margin-top:  1em;
+    margin-bottom: 1em;
+    margin-left: 1.5em;
+}
+.branch_2_des{
+    font-size: 2em;
+}
+.br2_map{
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    border:1px solid black;
+    border-radius: 1em;
+}
+
+.kandy_branch{
+    border-radius: 1em;
+    width: 100%;
+    height: 400px;
+    
+}
+
+/* galle branch */
+
+.br3_head{
+    font-size: 2em;
+    margin-left: 1.5em;
+    margin-top:  1em;
+    margin-bottom: 1em;
+    margin-left: 1.5em;
+}
+.branch_3_des{
+    font-size: 2em;
+}
+.br3_map{
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    border:1px solid black;
+    border-radius: 1em;
+}
+
+.galle_branch{
+    border-radius: 1em;
+    width: 100%;
+    height: 400px;
+}
+
+/* summary table css */
+.summary_container{
+    margin: 1em;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid black;
+}
+.smry_td{
+    border: 1px solid black;
+    width: 30% , 70%;
+    height: 3em;
+    font-size: 2em;
+    border-radius: 10px;
+    padding: 1em;
+}
+
+
+
+
+
+
+/* ....................................................................................................................................................................... */
+
+
+
+@media screen and (max-width: 600px){
+
+        /* start of about section */
+
+    #panel{
+        width: 90%;
+        border:solid #495f66 .1em;
+        font-size: 1em;
+        border-radius: 5em;
+        margin-left: auto;
+        margin-right: auto;
+
+
+    }
+
+    #container_abt{
+
+       
+        margin-top: .5;  
+        margin-left: auto;
+        margin-right: auto;
+        height: 110em;
+        display: flex;
+        flex-direction: column;
+
+        
+    }
+
+
+
+    /*panel 1 customization*/
+    .panel_1{
+        background-color: #e0fffc;
+
+
+    }
+    .panel_1_h{
+        margin-left: 1em;
+        margin-top: 1em;
+        font-size: 25px;
+
+    }
+    .panel_1_p{
+        margin-left: 1em;
+        font-size: 30px; 
+        margin-bottom: 1.5em; 
+
+        
+    }
+
+    /*panel 2 customization*/
+
+    .panel_2{
+        
+        background-color: rgb(159, 211, 159);
+        width: 200%;
+
+        
+    }
+    .panel_2_h{
+        font-size: 25px;
+
+    }
+    .panel_2_p{
+        font-size: 30px;
+        margin-bottom: 2em;
+        
+    }
+
+    /*panel 3 customization*/
+
+    .panel_3{
+    
+        background-color: #e0fffc;
+
+    }
+    .panel_3_h{
+        margin-left: 1em;
+        margin-top: 1em;
+        font-size: 25px;
+
+    }
+
+    #dif_branches{
+        margin-top: 45%;
+    }
+
+    /* table css */
+
+    .smry_td{
+        border: 1px solid black;
+        width: 30% , 70%;
+        height: 2em;
+        font-size: 1.1em;
+        border-radius: 10px;
+    }
+    
+
+    /* branch images */
+
+    .br_img{
+        display: flex;
+        flex-direction: column;
+    }
+    .br_images{
+        width: 85%;
+        margin: 1em;
+        display: block;
+        height: 30em;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 5px;
+        border: 1px solid black;
+    }
+
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

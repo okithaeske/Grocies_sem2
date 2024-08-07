@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Grocery website for grocies</title>
+
+    
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+ 
+    <link rel="stylesheet" href="../css/order _and_loyalty.css">
+    <link rel="stylesheet" href="../css/header_and_footer.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    
+
+
+
+    <!-- start of section header  -->
+<header class="header">
+    <a href="#" class="Logo"><i class="bx bxs-basket">Grocies</i></a>
+    <!-- menue icon -->
+    <div class="bx bx-menu" id="menue-icon"></div>
+    <!-- nav list -->
+     <ul class="Navbar">
+        <a href="../index.html">Home</a>
+        <a href="aboutpage.html">About</a>
+        <a href="product_page.html">Products</a>
+        <a href="order.html"class="home-active">Order</a>
+        <a href="loyalty.html">loyalty</a>
+     </ul>
+
+     <!-- profile -->
+      <div class="profile">
+        <img src="../Images/home/dp.jpeg" alt="profile image">
+        <span>Umair Abdus</span>
+        <i class="bx bx-caret-down"></i>
+      </div>
+
+
+</header> 
+
+    <!-- <div class="brand">
+    <h1 class="h_heading">Order Page</h1>
+    <img src="../Images/home/basket_icon1.png" class="logo_icon">
+    </div>
+
+    <nav class="navbar">
+        <a href="../index.html">Home</a>
+        <a href="aboutpage.html">About</a>
+        <a href="product_page.html">Products</a>
+        <a href="order.html">Order</a>
+        <a href="loyalty.html">Loyalty</a>
+    </nav>
+
+    <div class="icons">
+        <img src="../Images/home/option_icon.jpg" class="option">
+        <img src="../Images/home/search_icon.JPG" class="search">
+        <img src="../Images/home/shopping_cart_icon.JPG" class="shopping_cart">
+        <img src="../Images/home/user_id_icon.JPG" class="user_id">   
+    </div> -->
+  <!--end of section header -->
+<body>
+
+
+            
+
+
+
+
+    <div class="order">
+
+                        <h1 class="form_head">Order Now</h1><br>
+                            <section>
+                                <form>
+                                    <fieldset class="order_set">
+                                            <fieldset id="set">
+                                                <section class="feild_1">
+                                                    <legend class="feild_1_head" >Products Selection</legend> <br>
+                                                    Catagory:<select name="categories" required class="pdct_selct_opt">
+                                                        <option>Vagetables</option>
+                                                        <option>Diary Products</option>
+                                                        <option>Skin care Products</option>
+                                                    </select><br><br>
+                                                    Products: <br>
+                                                    <textarea name="products" rows="15" cols="50" id="order_panel"></textarea> <br><br>
+                                                    Quantity: <br>
+                                                    <input type="number" name="quantity" min="1" id="order_panel"> <br><br>
+                                                    Comments: <br>
+                                                    <textarea name="products" rows="10" cols="50" id="order_panel"></textarea>
+                                                </section>
+                                            </fieldset>
+                                        <fieldset id="set">
+                                            <section class="feild_2">
+                                                <legend class="feild_2_head">Payment Detail Methods</legend> <br>
+                                                Name: <br> 
+                                                <input type="text" maxlength="30" required id="order_panel" placeholder=" First name">
+                                                <input type="text" maxlength="30" required id="order_panel" placeholder=" Last name">
+                                                <br><br>
+                                                Address: <br>
+                                                <input type="text" maxlength="30" required id="order_panel_tog" placeholder=" Street number">
+                                                <input type="text" maxlength="30" required id="order_panel_tog" placeholder=" Street name"> <br>
+                                                <input type="text" maxlength="30" required id="order_panel" placeholder=" City name"><br><br>
+                                                Mobile: <br>
+                                                <input type="text" required maxlength="10" id="order_panel"><br><br>
+                                                Email: <br>
+                                                <input type="email" id="order_panel" placeholder=" grocies@yahoo.lk"><br><br>
+                                                Catagory:
+                                                <select name="categories" required class="slct_opt">
+                                                    <option>Visa</option>
+                                                    <option>Debit</option> 
+                                                    <option>Credit</option>
+                                                </select><br><br>
+                                                Card Number: <br>
+                                                <input type="text" maxlength="16" required placeholder=" xxxx xxxx xxxx xxxx" id="order_panel"> <br><br>
+                                                Expire Date: <br>
+                                                <input type="date" required id="order_panel"><br><br>
+                                                Security Code: <br>
+                                                <input type="text" required id="order_panel"> 
+                                            </section>
+                                            
+                                        </fieldset>
+                                    </fieldset>
+                                        <input type="reset" value="Reset" class="rst">
+                                        <input type="submit" value="Confirm" class="sbmt">
+                                        
+                                    
+                                </form>
+                            
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                            </section> 
+    </div>
+
+           
+    <script src="../js/main.js"></script>
+
+  
+</body>
+<footer>
+    <div class="footer-main-container">
+        <div class="footer-comp">
+            <div class="footer-container">
+                <div class="brand-footer">
+                    <div class="location">
+                    <p class="footer-description">Grocies supermarket,<br>
+                        No. 571,<br>
+                        High Level road,<br>
+                        Delkanda,<br>
+                        Nugegoda.
+                    </p>
+                    </div>
+                    <div class="mail">
+                        <a class="mail-text" href="mailto:customer@grocies.lk">customer@grocies.lk</a>
+                    </div>
+                    <div class="call">
+                    
+                        <p class="footer-description">0740713025</p>
+                    </div>
+                </div>
+                <div class="links-footer">
+                        <a  class="footer-list" href="../index.html">Home</a>
+                        <a class="footer-list" href="aboutpage.html">About Us</a>
+                        <a class="footer-list" href="product_page.html">Product</a>
+                        <a class="footer-list" href="order.html">Order Page</a>
+                        <a class="footer-list" href="loyalty.html">Loyalty Registration</a>  
+                </div>
+                <div class="newsletter-footer">
+                    <p class="news">News Letter Subscribe</p>
+                    <p class="footer-description">Subscribe with Grocies to be in touch with all in-store & online promotions, latest culinary adventures, lifestyle tips and much more.</p>
+                    <div>
+                        <input type="email" name="email" placeholder="Ex:name@domain.com" class="email-input">
+                        <button class="subscribe-button">Subscribe</button>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+        <p class="rights-footer">2024 @ All Rights reserved </p>
+    </div>
+
+     <!-- icons referencing -->
+    <!-- Flaticon (2010). Flaticon, The Largest Database of Free Vector Icons. [online] Flaticon. Available at: https://www.flaticon.com/. --> 
+</footer>
+</html>

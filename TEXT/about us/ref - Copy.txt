@@ -1,0 +1,11 @@
+Grocies was founded with a simple mission: to provide wholesome, high-quality food to our community. Our journey began in a small corner store, and over the years, we’ve grown into the bustling supermarket you see today. We’re proud to be part of your daily life, from breakfast to dinner and everything in between.
+
+-https://www.shopify.com/in/blog/how-to-write-an-about-us-page
+
+maps -
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15842.29924379105!2d79.83186424392657!3d6.941309938938836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae259215509991f%3A0xc20babe3d8e8795e!2sFort%2C%20Colombo!5e0!3m2!1sen!2slk!4v1713409269430!5m2!1sen!2slk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+ <iframe class="kandy_branch" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11568.120832290995!2d80.62246251398061!3d7.299692486956313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae367d4b78536eb%3A0x7cb51e01888a66dd!2sCIB%20Shopping%20Centre!5e0!3m2!1sen!2slk!4v1713409837926!5m2!1sen!2slk"width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+<iframe class="galle_branch" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27632.008234630786!2d80.1979407376215!3d6.048756316611074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae173a7b5b11cbd%3A0xfde8772f0d014daf!2sLighthouse%20-%20Galle!5e0!3m2!1sen!2slk!4v1713410238451!5m2!1sen!2slk"width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

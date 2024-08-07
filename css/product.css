@@ -1,0 +1,735 @@
+
+/* product page */
+
+.d_qaccess{
+    display: flex;
+    /* background-color:antiquewhite ; */
+    width: 100%;
+}
+
+#daccess_p{
+    margin-left: auto;
+    margin-right: auto;
+}
+#daccess_p_img{
+    margin-top: 2em;
+    border-radius: 3px;
+    width: 100%;
+    box-shadow: 2px 2px 1px;
+}
+#daccess_p_img:hover{
+    box-shadow: 2px 2px 10px;
+}
+
+#daccess_p_p{
+    font-size: 3em;
+    margin-left: 1.8em;
+    margin-bottom: 1em;
+}
+#daccess_p_o{
+    font-size: 3em;
+    margin-left: 1em;
+}
+@media screen and (max-width: 600px){
+    .d_qaccess{
+        
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #daccess_p_img{
+
+        margin-top: 2em;
+        border-radius: 3px;
+        width: 100%;
+        box-shadow: 2px 2px 1px;
+    }
+    #daccess_p_p{
+        font-size: 3em;
+        margin-left: 2.5em;
+        margin-bottom: 1em;
+    }
+    #daccess_p_o{
+        font-size: 3em;
+        margin-left: 1.5em;
+    }
+
+}
+
+
+
+
+/* ........................................................................................................................................................................ */
+/* common css for everything in product page */
+
+
+
+.p_qaccess{
+    display: flex;
+    background-color:antiquewhite ;
+}
+
+#qaccess_p{
+    margin-left: auto;
+    margin-right: auto;
+}
+#qaccess_p_img{
+    margin-top: 2em;
+    border-radius: 100%;
+    width: 80%;
+    box-shadow: 2px 2px 1px;
+}
+#qaccess_p_img:hover{
+    box-shadow: 2px 2px 10px;
+}
+
+#qaccess_p_p{
+    font-size: 3em;
+    margin-left: 2em;
+    margin-bottom: 1em;
+}
+#qaccess_p_o{
+    font-size: 3em;
+    margin-left: 1em;
+}
+#ind_container_btn{
+    margin-top: 1.5em;
+    margin-bottom: .1em;
+    margin-left: auto;
+    margin-right:auto ;
+    display: block;
+    background-color: rgb(144, 174, 78);
+    border: none;
+    width: 100%;
+    font-size: 2em;
+}
+#ind_container_btn:hover{
+    color: aquamarine;
+}
+.strt_head{
+    margin-top: .5em;
+    margin-bottom: .5em;
+    text-align: center;
+    font-size: 5em;
+}
+@media screen and (max-width: 600px){
+    .p_qaccess{
+        display: flex;
+        background-color:antiquewhite ;
+        width: 100%;
+    
+    
+    }
+    
+    #qaccess_p{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #qaccess_p_img{
+        margin-left: 1em;
+        margin-top: 2em;
+        border-radius: 100%;
+        width: 70%;
+        box-shadow: 2px 2px 1px;
+    }
+    #qaccess_p_img:hover{
+        box-shadow: 2px 2px 10px;
+    }
+    
+    #qaccess_p_p{
+        font-size: 2em;
+        margin-left: 2em;
+        margin-bottom: 1em;
+    }
+    #qaccess_p_o{
+        font-size: 2em;
+        margin-left: 1em;
+    }
+    
+
+        
+}
+
+
+/* ........................................................................................................................................................................................................ */
+
+
+/* vegetable page */
+
+#vege_container{
+    margin-top: 5em;
+    height: 95em;
+
+
+
+}
+.vege_box{
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(4,260px);
+    row-gap: 20px;
+    width: 95%;
+    margin: auto;
+
+
+}
+.vege_box:hover{
+    box-shadow: 2px 2px 3px;
+    
+}
+#ind_container{
+    border-radius: 3px;
+    margin: 1em;
+    border: 1px solid black;
+}
+#ind_container:hover{
+    box-shadow: 1px 1px 1px;
+}
+#ind_container_img{
+    margin: 1em;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 90%;
+    border-radius: 100px;
+    border:1px solid black;
+}
+#ind_container_p{
+    margin-top: .5em;
+    text-align: center;
+    font-size: 1.5em;
+}
+#ind_container_p1{
+    text-align: center;
+    font-size: 1.1em;
+    margin-top: 2em;
+}
+#ind_container_pr{
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 0.2em;
+}
+
+
+
+/* vege css mobile veiw */
+
+@media screen and (max-width: 600px){
+    #p_container{
+        margin-top: 5em;
+    
+    }
+    .vege_box{
+        display: grid;
+        justify-content: space-evenly;
+        grid-template-columns: repeat(2,170px);
+        row-gap: 10px;
+        width: 95%;
+    }
+    .vege_box:hover{
+        box-shadow: 2px 2px 3px;
+        
+    }
+    #ind_container{
+        border-radius: 3px;
+        border: 1px solid black;
+    }
+    #ind_container:hover{
+        box-shadow: 1px 1px 1px;
+    }
+    #ind_container_img{
+        margin: 1em;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        border-radius: 100px;
+        border:1px solid black;
+    }
+    #ind_container_p{
+        margin-top: .5em;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    #ind_container_p1{
+        text-align: center;
+        font-size: 1.1em;
+        margin-top: 2em;
+    }
+    #ind_container_pr{
+        text-align: center;
+        font-size: 1.5em;
+        margin-top: 0.2em;
+    }
+    
+    
+    
+
+        
+} 
+
+
+
+
+
+
+/* ....................................................................................................................................................................... */
+
+
+
+/* dairy page css */
+
+
+.dairy_box{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.dairy_box:hover{
+    box-shadow: 1px 1px 3px;
+}
+#ind_dairy{
+    margin-bottom: 1em;
+    margin-top: 1em;
+    border: 1px solid black;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px;
+
+}
+#ind_dairy:hover{
+    box-shadow: 1px 1px 3px;
+   
+
+}
+.dairy_img{
+    border: 1px solid black;
+    margin: 1em;
+    width: 90%;
+    border-radius: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+.dairy_p{
+    margin: 1em;
+    text-align: center;
+    font-size: 2em;
+}
+.quantity{
+    font-size: 1.2em;
+    text-align: center;
+}
+.dairy_pr{
+    text-align: center;
+    font-size: 2em;
+}
+.ind_container_btn_d1{
+    border: none;
+    margin-top: 2.7em;
+    margin-bottom: .1em;
+    margin-left: auto;
+    margin-right:auto ;
+    display: block;
+    background-color: rgb(144, 174, 78);
+    width: 100%;
+    font-size: 2em;
+}
+.ind_container_btn_d1:hover{
+    color: aliceblue;
+}
+
+
+/* dairy des */
+
+#dairy_des{
+    margin: 1em;
+}
+.dairy_des_box{
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    box-shadow: 1px 1px 3px;
+    text-align: justify;
+    background-color:rgb(76, 162, 96);
+    height: 110em;
+    border-radius: 3px;
+
+}
+.dairy_des_box_h1{
+    text-align: center;
+    margin: 1em;
+    font-size: 4em;
+}
+.dairy_des_box_p{
+    font-size: 2em;
+    text-align: center;
+}
+.dairy_des_box_p1{
+    font-size: 2em;
+    margin-left: 2em;
+    text-align: justify;
+}
+.dairy_des_box_p2{
+    margin: 1em;
+    font-size: 2.5em;
+    text-align: center;
+
+}
+/* dairy css cutomizations  */
+
+@media screen and (max-width: 600px){
+    #dairy_des{
+        height: 170em;
+    }
+    .dairy_des_box{
+        height: 170em;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .dairy_box:hover{
+        box-shadow: 1px 1px 3px;
+    }
+    #ind_dairy{
+        margin-top: 1em;
+        border: 1px solid black;
+        width: 45%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 3px;
+    
+    }
+    #ind_dairy:hover{
+        box-shadow: 1px 1px 3px;
+       
+    
+    }
+    .dairy_des_box_p1{
+        font-size: 2em;
+        margin-right: 1.5em;
+        text-align: justify;
+    }
+    .dairy_img{
+        border: 1px solid black;
+        margin: 1em;
+        width: 75%;
+        border-radius: 100px;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+    .dairy_p{
+        margin: 1em;
+        text-align: center;
+        font-size: 2em;
+    }
+    .quantity{
+        font-size: 1.2em;
+        text-align: center;
+    }
+    .dairy_pr{
+        text-align: center;
+        font-size: 2em;
+    }
+    .ind_container_btn_d1{
+        margin-top: 2.7em;
+        margin-bottom: .1em;
+        margin-left: auto;
+        margin-right:auto ;
+        display: block;
+        background-color: rgb(144, 174, 78) ;
+        width: 100%;
+        font-size: 2em;
+    }
+    .ind_container_btn_d1:hover{
+        color: aliceblue;
+    }
+    
+   
+        
+} 
+
+/* ........................................................................................................................................................................ */
+
+/* cosmetics page css */
+.cos_box{
+    margin: 1em;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.cos_box:hover{
+    box-shadow: 1px 1px 3px;
+
+}
+
+#ind_container_cos{
+    margin: 1em;
+    width: 70%;
+    border-radius: 3px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#ind_container_cos:hover{
+    box-shadow: 1px 1px 1px;
+}
+#ind_container_cos_img{
+    margin: 1em;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 90%;
+    border-radius: 100px;
+    border:1px solid black;
+}
+#ind_container_cos_p{
+    margin-top: .5em;
+    text-align: center;
+    font-size: 1.5em;
+}
+#ind_container_cos_quantity{
+    text-align: center;
+    font-size: 1.1em;
+    margin-top: 2em;
+}
+#ind_container_cos_pr{
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 0.2em;
+}
+.cos_tb{
+    margin-left: auto;
+    margin-right: auto;
+}
+.td{
+    width: 7%;
+}
+
+
+/* mobile veiw table */
+
+
+@media screen and (max-width: 600px){
+    .cos_container{
+        display: none;
+    }
+    .cos_box{
+        margin: 1em;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .cos_box:hover{
+        box-shadow: 1px 1px 3px;
+    
+    }
+
+    #ind_container_cos{
+        margin: 1em;
+        width: 90%;
+        border-radius: 3px;
+        border: 1px solid black;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    #ind_container_cos:hover{
+        box-shadow: 1px 1px 1px;
+    }
+    #ind_container_cos_img{
+        margin: 1em;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        border-radius: 100px;
+        border:1px solid black;
+    }
+    #ind_container_cos_p{
+        margin-top: .5em;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    #ind_container_cos_quantity{
+        text-align: center;
+        font-size: 1.1em;
+        margin-top: 2em;
+    }
+    #ind_container_cos_pr{
+        text-align: center;
+        font-size: 1.5em;
+        margin-top: 0.2em;
+    }
+    .cos_tb{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+
+}
+
+@media screen and (min-width: 600px){
+    .cos_container2{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px){
+    .navbar{
+        margin-left: 15em;
+    }
+    .icons{
+        margin-left: 28em;
+    }
+
+
+        
+}    

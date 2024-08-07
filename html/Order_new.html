@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Grocery website for grocies</title>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/header_and_footer.css">
+
+
+
+
+
+    <!-- start of section header  -->
+    <header class="header">
+        <a href="#" class="Logo"><i class="bx bxs-basket">Grocies</i></a>
+        <!-- menue icon -->
+        <div class="bx bx-menu" id="menue-icon"></div>
+        <!-- nav list -->
+        <ul class="Navbar">
+            <a href="../index.html">Home</a>
+            <a href="aboutpage.html">About</a>
+            <a href="product_page.html">Products</a>
+            <a href="Order_new.html" class="home-active">Order</a>
+            <a href="loyalty.html">loyalty</a>
+        </ul>
+
+        <!-- profile -->
+        <div class="profile">
+            <img src="../Images/home/user_id_icon1.png" alt="profile image">
+            <span>Sign In</span>
+            <i class="bx bx-caret-down"></i>
+        </div>
+
+
+    </header>
+
+<body>
+    <h1>Order Page</h1>
+    <div class="set">
+        <section class="feild">
+            <h1>Order Now</h1>
+            <label for="optionList">Select an option:</label>
+            <select id="optionList" class="select-box">
+                <option value="" disabled selected>Select an option</option>
+                <option value="option1">Vegetables</option>
+                <option value="option2">Fruits</option>
+                <option value="option3">Dairy</option>
+                <option value="option4">Meat and Fish</option>
+                <option value="option5">Baking and cooking</option>
+                <option value="option6">Cosmetics</option>
+            </select>
+
+            <div id="checkboxContainer"></div>
+            <div id="totalPriceContainer">Price: Rs.0</div>
+            </form>
+
+            <div class="order_page_buttons button">
+                <button id="confirmButton">Confirm</button>
+                <button id="addToFavoriteButton">Add to Favorite</button>
+                <button id="useFavoriteButton">Use Favorite</button>
+                <button id="resetButton">Reset</button>
+                <button id="viewSelectedButton">Buy Now</button>
+            </div>
+
+
+
+
+
+            <div id="resultTableContainer">
+                <table id="resultTable" class="table_class_order">
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Quantity</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th colspan="2">Total Price</th>
+                            <th id="tableTotalPrice">$0.00</th>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </section>
+
+
+
+    </div>
+
+
+    <script src="../js/main.js"></script>
+    <script src="../js/order.js"></script>
+</body>
+<footer>
+    <div class="footer-main-container">
+        <div class="footer-comp">
+            <div class="footer-container">
+                <div class="brand-footer">
+                    <div class="location">
+                        <p class="footer-description">Grocies supermarket,<br>
+                            No. 571,<br>
+                            High Level road,<br>
+                            Delkanda,<br>
+                            Nugegoda.
+                        </p>
+                    </div>
+                    <div class="mail">
+                        <a class="mail-text" href="mailto:customer@grocies.lk">customer@grocies.lk</a>
+                    </div>
+                    <div class="call">
+
+                        <p class="footer-description">0740713025</p>
+                    </div>
+                </div>
+                <div class="links-footer">
+                    <a class="footer-list" href="../index.html">Home</a>
+                    <a class="footer-list" href="aboutpage.html">About Us</a>
+                    <a class="footer-list" href="product_page.html">Product</a>
+                    <a class="footer-list" href="order.html">Order Page</a>
+                    <a class="footer-list" href="loyalty.html">Loyalty Registration</a>
+                </div>
+                <div class="newsletter-footer">
+                    <p class="news">News Letter Subscribe</p>
+                    <p class="footer-description">Subscribe with Grocies to be in touch with all in-store & online
+                        promotions, latest culinary adventures, lifestyle tips and much more.</p>
+                    <div>
+                        <input type="email" name="email" placeholder="Ex:name@domain.com" class="email-input">
+                        <button class="subscribe-button">Subscribe</button>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <p class="rights-footer">2024 @ All Rights reserved </p>
+    </div>
+
+    <!-- icons referencing -->
+    <!-- Flaticon (2010). Flaticon, The Largest Database of Free Vector Icons. [online] Flaticon. Available at: https://www.flaticon.com/. -->
+</footer>
+
+</html>
