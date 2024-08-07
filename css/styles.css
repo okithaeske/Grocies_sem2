@@ -421,6 +421,25 @@ th {
     font-size: 15px;
 }
 
+/* payment */
+.form_head{
+    text-align: center;
+    background-color: #130707;
+    color: #ffffff;
+    margin-bottom: 3em;
+
+
+}
+.order_head{
+    text-align: center;
+    background-color: #130707;
+    color: #ffffff;
+    font-size: 2em;
+
+
+}
+
+
 
 
 
