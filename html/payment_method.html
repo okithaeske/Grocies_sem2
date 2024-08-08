@@ -93,14 +93,14 @@
 
 
         <section>
-            <form>
+            <form id="payment_form">
 
                 <fieldset id="set">
                     <section class="feild_2">
                         <legend class="feild_2_head">Payment Detail Methods</legend> <br>
                         Name: <br>
-                        <input type="text" maxlength="30" required class="order_panel" id="name"
-                            placeholder=" Enter your name">
+                        <input type="text" maxlength="30" class="order_panel" id="name"
+                            placeholder=" Enter your name" required>
 
                         <br>
                         Address: <br>
@@ -117,8 +117,7 @@
                         Catagory:
                         <select name="categories" required class="slct_opt">
                             <option>Visa</option>
-                            <option>Debit</option>
-                            <option>Credit</option>
+                            <option>Master</option>
                         </select><br><br>
                         Card Number: <br>
                         <input type="text" maxlength="16" required placeholder=" xxxx xxxx xxxx xxxx" id="Card_name"
@@ -126,7 +125,7 @@
                         <br><br>
                         Expire Date: <br>
                         <input type="date" required class="order_panel"><br><br>
-                        Security Code: <br>
+                        CVC: <br>
                         <input type="text" required class="order_panel"><br><br>
                         <div class="order_page_buttons">
                             <button type="submit" id="payment_submit">submit</button>

@@ -85,9 +85,17 @@ function showPay()
 
     let delidate = `${date}-${month}-${year}`
 
-    alert(`Order of ${c_name} has been succesfully confirmed.\nIt will be delivered to ${customerAddress} by ${delidate}`)
+    const card_N = CardName.value
+    if ( card_N == '') {
 
-
+        alert('Please fill the all the feilds')
+ 
+    }else if(streetName.value == ''){
+        alert('Please fill the all the feilds')
+    }
+    else{
+        alert(`Order of ${c_name} has been succesfully confirmed.\nIt will be delivered to ${customerAddress} by ${delidate}`)
+    }
     
 
 
