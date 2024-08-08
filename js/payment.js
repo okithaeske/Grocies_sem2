@@ -86,14 +86,15 @@ function showPay()
     let delidate = `${date}-${month}-${year}`
 
     const card_N = CardName.value
-    if ( card_N == '') {
+    if ( !card_N || !c_name || !delidate) {
 
-        alert('Please fill the all the feilds')
+        alert('Please fill in all the fields before submitting.');
  
-    }else if(streetName.value == ''){
-        alert('Please fill the all the feilds')
-    }
-    else{
+    }else if(resultTable.rows.length == 0){
+        
+        alert('Your cart is empty. Please add items before proceeding with payment.');
+
+    }else{
         alert(`Order of ${c_name} has been succesfully confirmed.\nIt will be delivered to ${customerAddress} by ${delidate}`)
     }
     
