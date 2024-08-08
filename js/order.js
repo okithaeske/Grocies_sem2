@@ -190,11 +190,12 @@ function addToFavorites() {
 
 function useFavorites() {
     const favorites = JSON.parse(localStorage.getItem('favorites'));
-    if (favorites) {
-        Object.assign(selections, favorites);
-        updateTable();
-    } else {
+    if (!favorites) {
         alert('No favorites found!');
+        
+    } else {
+        Object.assign(selections, favorites);
+        updateTable();  
     }
 }
 
