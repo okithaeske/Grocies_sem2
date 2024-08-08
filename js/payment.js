@@ -7,7 +7,9 @@ const streetName = document.getElementById("street_name");
 const cityName = document.getElementById("city_name");
 const CardName = document.getElementById("Card_name");
 const submit = document.getElementById("payment_submit")
-
+const tel = document.getElementById('tel_no')
+const email = document.getElementById("email")
+const exp = document.getElementById("exp_date")
 
 
 // importing local storage and displaying the table 
@@ -75,6 +77,8 @@ CardName.addEventListener("input", function () {
 
 function showPay()
 {
+
+    // creating variables for to send the final message
     const c_name = Name.value
     const customerAddress =  (`${streetNo.value},${streetName.value}, ${cityName.value}`)
     
@@ -85,9 +89,16 @@ function showPay()
 
     let delidate = `${date}-${month}-${year}`
 
-    const card_N = CardName.value
+    // validation of form
 
-    if ( !card_N || !c_name || !customerAddress) {
+    const eml = email.value
+    const tel = tel.value
+    const card_N = CardName.value
+    const exp = exp.value
+
+    // exception handling 
+
+    if ( !card_N || !c_name || !customerAddress || !tel || !eml || !exp) {
 
         alert('Please fill in all the fields before submitting.');
  
