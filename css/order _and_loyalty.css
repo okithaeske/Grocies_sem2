@@ -88,10 +88,11 @@
     #set{
         margin: 1em;
         width: 95%;
-        height: auto;
+        height: 115em;
         border: none;
         border-radius: 10px;
         box-shadow: 1px 1px 3px;
+        
     }
     .order_set{
         display: flex;
