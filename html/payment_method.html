@@ -91,7 +91,7 @@
 
 
 
-        <section id="payment_form">
+        <section>
             <form>
 
                 <fieldset id="set">
@@ -110,20 +110,19 @@
                         <input type="text" maxlength="30" required class="order_panel" id="city_name"
                             placeholder=" City name"><br><br>
                         Mobile: <br>
-                        <input type="tel" required maxlength="10" id="tel_no" class="order_panel"><br><br>
+                        <input type="tel" id="tel_no" maxlength="10" class="order_panel"><br><br>
                         Email: <br>
-                        <input type="email" id="email" class="order_panel" placeholder=" grocies@yahoo.lk"><br><br>
+                        <input type="email" class="order_panel" placeholder=" grocies@yahoo.lk"><br><br>
                         Catagory:
                         <select name="categories" required class="slct_opt">
                             <option>Visa</option>
                             <option>Master</option>
                         </select><br><br>
                         Card Number: <br>
-                        <input type="text" maxlength="16" required placeholder=" xxxx xxxx xxxx xxxx" id="Card_name"
-                            class="order_panel">
+                        <input type="text" maxlength="16" required placeholder=" xxxx xxxx xxxx xxxx" id="Card_name" class="order_panel">
                         <br><br>
                         Expire Date: <br>
-                        <input type="date" id="exp_date" required class="order_panel"><br><br>
+                        <input type="date" required class="order_panel"><br><br>
                         <div class="order_page_buttons">
                             <button type="submit" id="payment_submit">submit</button>
                             <button type="reset">Reset</button>

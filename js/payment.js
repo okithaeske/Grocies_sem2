@@ -7,9 +7,8 @@ const streetName = document.getElementById("street_name");
 const cityName = document.getElementById("city_name");
 const CardName = document.getElementById("Card_name");
 const submit = document.getElementById("payment_submit")
-const tel = document.getElementById('tel_no')
-const email = document.getElementById("email")
-const exp = document.getElementById("exp_date")
+
+
 
 
 // importing local storage and displaying the table 
@@ -65,7 +64,7 @@ cityName.addEventListener("input", function () {
     cityName.value = (cityName.value).replace(/\d/g, '');
 
 })
-telNo.addEventListener("input", function () {
+telNo.addEventListener("tel", function () {
     telNo.value = (telNo.value).replace(/[A-Za-z]/g, '');
 
 })
@@ -79,6 +78,8 @@ function showPay()
 {
 
     // creating variables for to send the final message
+    const name = Name.value
+    const tel = telNo.value
     const c_name = Name.value
     const customerAddress =  (`${streetNo.value},${streetName.value}, ${cityName.value}`)
     
@@ -91,25 +92,27 @@ function showPay()
 
     // validation of form
 
-    const eml = email.value
-    const tel = tel.value
+
     const card_N = CardName.value
-    const exp = exp.value
 
     // exception handling 
 
-    if ( !card_N || !c_name || !customerAddress || !tel || !eml || !exp) {
+  
 
-        alert('Please fill in all the fields before submitting.');
- 
+    if (!card_N || !customerAddress || !tel || !name ) {
+
+        alert("Please fill all the feilds")
+        
     }else if(resultTable.rows.length == 0){
 
         alert('Your cart is empty. Please add items before proceeding with payment.');
 
-    }else{
-        alert(`Order of ${c_name} has been succesfully confirmed.\nIt will be delivered to ${customerAddress} by ${delidate}`)
     }
-    
+    else{
+        alert(`Order of ${c_name} has been succesfully confirmed.\nIt will be delivered to ${customerAddress} by ${delidate}`)
+
+    }
+   
 
 
 
