@@ -13,18 +13,18 @@
     width: 80%;
     margin-bottom: 1em;
     margin-top: 1em;
-    margin-bottom: 90px !important;
+ 
 
     
 }
 #set{
-    height: 109em;
+    height: 110em;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
     margin-bottom: 1em;
     margin-top: 1em;
-    margin-bottom: 90px !important;
+    border-radius: 10px;
 }
 .feild_2{
     margin-left: 2em;
@@ -90,6 +90,7 @@
         width: 95%;
         height: auto;
         border: none;
+        border-radius: 10px;
         box-shadow: 1px 1px 3px;
     }
     .order_set{
@@ -97,8 +98,8 @@
         flex-direction: column;
     }
     .feild_2{
-        margin-left: 1em;
         font-size: 2em;
+        margin: 1em;
        
     }
     .feild_2_head{

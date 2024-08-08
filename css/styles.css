@@ -281,6 +281,7 @@ header{
     background: var(--bg-color);
     border-radius: 5rem;
     margin-bottom: 90px !important;
+    
   
 }
 .feild{
@@ -367,7 +368,7 @@ th {
    
 }
 #ResultTableContainer {
-    font-size: 1.8em;.
+    font-size: 1.8em;
     
 
 }
@@ -452,6 +453,11 @@ th {
 
 
 }
+#payment_form{
+    border-radius: 100%;
+}
+
+
 
 
 
