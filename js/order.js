@@ -178,7 +178,14 @@ function confirmSelection() {
 
 
 function addToFavorites() {
-    localStorage.setItem('favorites', JSON.stringify(selections));
+    if (resultTable.rows.length == 0) {
+        alert("Please select items bofore adding to favorites")
+        
+    }else{
+        localStorage.setItem('favorites', JSON.stringify(selections));
+
+    }
+ 
 }
 
 function useFavorites() {
@@ -201,7 +208,7 @@ function resetSelections() {
     optionList.value = ''; // Reset select box
 }
 
-function viewSelectedItems() {
+function buynow() {
     localStorage.setItem('selectedItems', JSON.stringify(selections));
     window.location.href = 'payment_method.html';
 }
@@ -252,6 +259,6 @@ confirmButton.addEventListener('click', confirmSelection);
 addToFavoriteButton.addEventListener('click', addToFavorites);
 useFavoriteButton.addEventListener('click', useFavorites);
 resetButton.addEventListener('click', resetSelections);
-PaynowButton.addEventListener('click', viewSelectedItems);
+PaynowButton.addEventListener('click', buynow);
 
 
