@@ -86,12 +86,13 @@ function showPay()
     let delidate = `${date}-${month}-${year}`
 
     const card_N = CardName.value
-    if ( !card_N || !c_name || !delidate) {
+
+    if ( !card_N || !c_name || !customerAddress) {
 
         alert('Please fill in all the fields before submitting.');
  
     }else if(resultTable.rows.length == 0){
-        
+
         alert('Your cart is empty. Please add items before proceeding with payment.');
 
     }else{
