@@ -15,7 +15,7 @@ const PaynowButton = document.getElementById('viewSelectedButton');
 
 // order page
 
-
+// initailising the products into dictionaries
 
 const checkboxes = {
     option1: [
@@ -82,6 +82,8 @@ const checkboxes = {
 
 };
 
+// dictionary to store the confirmed items
+
 const selections = {
     option1: [],
     option2: [],
@@ -90,6 +92,8 @@ const selections = {
     option5: [],
     option6: []
 };
+
+// update total price 
 
 function updateTotalPrice() {
     let totalPrice = 0;
@@ -106,6 +110,8 @@ function updateTotalPrice() {
     totalPriceContainer.textContent = `Price: Rs.${totalPrice.toFixed(2)}`;
 }
 
+// add exception to quantity
+
 function validateInput(event) {
     const input = event.target;
     if (input.value.length > 4) {
@@ -113,6 +119,7 @@ function validateInput(event) {
     }
 }
 
+// create table 
 
 function updateTable() {
     resultTable.innerHTML = ''; // Clear existing rows
@@ -152,7 +159,7 @@ function updateTable() {
     }
 }
 
-
+// confirm selection and pushing values to table
 
 function confirmSelection() {
     const selectedOption = optionList.value;
@@ -176,7 +183,7 @@ function confirmSelection() {
     updateTable();
 }
 
-
+//  add favorites and use favprites
 function addToFavorites() {
     if (resultTable.rows.length == 0) {
         alert("Please select items bofore adding to favorites")
@@ -200,6 +207,8 @@ function useFavorites() {
     }
 }
 
+
+
 function resetSelections() {
     for (const option in selections) {
         selections[option] = [];
@@ -210,10 +219,13 @@ function resetSelections() {
     optionList.value = ''; // Reset select box
 }
 
+
 function buynow() {
     localStorage.setItem('selectedItems', JSON.stringify(selections));
     window.location.href = 'payment_method.html';
 }
+
+// creating checkboxes according to selected option
 
 function createCheckboxes () {
     const selectedOption = optionList.value;
