@@ -106,6 +106,7 @@ function showPay()
     }else if(resultTable.rows.length == 0){
 
         alert('Your cart is empty. Please add items before proceeding with payment.');
+        
 
     }
     else{

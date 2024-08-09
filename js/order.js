@@ -183,6 +183,7 @@ function addToFavorites() {
         
     }else{
         localStorage.setItem('favorites', JSON.stringify(selections));
+        alert('Items added to favorites');
 
     }
  
